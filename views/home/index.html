@@ -14,15 +14,17 @@
       type="image/png"
       href="../../content/images/pawprint.ico"
     />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
     <title>Cat Shelter</title>
   </head>
   <body>
     <header>
       <nav>
         <ul class="navigation">
-          <li><a href="">Home Page</a></li>
-          <li><a href="">Add Breed</a></li>
-          <li><a href="">Add Cat</a></li>
+          <li><a href="/">Home Page</a></li>
+          <li><a href="/cats/add-breed">Add Breed</a></li>
+          <li><a href="/cats/add-cat">Add Cat</a></li>
         </ul>
       </nav>
       <h1>Cat Shelter</h1>
@@ -35,7 +37,8 @@
     <main>
       <section class="cats">
         <ul>
-          <li>
+          {{cats}}
+          <!-- <li>
             <img src="https://placekitten.com/350/250" alt="Black Cat" />
             <h3></h3>
             <p><span>Breed: </span>Bombay Cat</p>
@@ -112,7 +115,7 @@
               <li class="btn edit"><a href="">Change Info</a></li>
               <li class="btn delete"><a href="">New Home</a></li>
             </ul>
-          </li>
+          </li> -->
         </ul>
       </section>
     </main>

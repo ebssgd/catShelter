@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "name": "HelloKitty",
+    "description": "Annoying Japanese thing",
+    "breed": "Himalayan",
+    "image": "angryCat1.jpg"
+  },
+  {
+    "name": "AngryCat",
+    "description": "A very angry cat",
+    "breed": "Fluffy Cat",
+    "image": "angryCat3.jpg"
+  }
+]
